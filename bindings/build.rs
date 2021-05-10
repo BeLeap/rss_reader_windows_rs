@@ -6,5 +6,7 @@ fn main() {
         Windows::Web::Syndication::{
             ISyndicationText, RetrievalProgress, SyndicationClient, SyndicationFeed, SyndicationItem,
         },
+
+        Windows::Win32::WindowsAndMessaging::MessageBoxA,
     );
 }
